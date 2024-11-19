@@ -37,10 +37,11 @@ The course will be delivered in a "traditional" lecture style. Prof Wand's secti
 
 | Section       | Instructor                                                                | Meeting Time                                 | Meeting Place      |
 |---------------|---------------------------------------------------------------------------|----------------------------------------------|--------------------|
-| 1             | Prof Bhutta                                                               | MR 11:45 am - 1:25 pm                        | Kariotis 309 |
+| 1             | Prof Bhutta                                                               | MR 11:45 am - 1:25 pm                        | Kariotis Hall 309 |
 | 2             | Prof Bhutta                                                               | TF 9:50 am - 11:30 am                        | Snell Library 035            |
 | 3             | Prof Bhutta                                                               | T 11:45 am - 1:25 pm & R 2:50 pm - 4:30pm    | Shillman Hall 415     |
 | 4             | Prof Wand                                                                 | W 6:00 pm - 9:20 pm                          | Online             |
+| 5             | Prof Bhutta                                                               | TF 3:25 pm - 5:05 pm                        | Snell Library 035            |
 
 ## Course Project
 The assignments and project for this class are designed to mirror the experiences of a software engineer joining a new development team:
@@ -53,15 +54,16 @@ At the end of the semester, the instructors and TAs will evaluate all of the stu
 The project will provide hands-on experience to complement the skills taught in this class, requiring students to be able to:
 - Work effectively in a small team
 - Enumerate and prioritize development tasks
-- Propose, design, implement and test a new feature in an existing non-toy software application
+- Propose, design, implement and test new feature(s) in an existing non-toy software application
 - Write code that their team members can read and review
 - Review teammates' code
 - Analyze a proposed software architecture
 - Use relevant software tools, such as:
   - TypeScript
+  - React
   - Visual Studio Code (or similar IDE)
   - Git
-  - Mocha and Jest
+  - Jest
   - Postman
 
 Select projects from Spring 2024 are hosted [in our project showcase](https://neu-se.github.io/CS4530-Spring-2024/assignments/project-showcase).
