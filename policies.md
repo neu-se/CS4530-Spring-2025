@@ -33,17 +33,18 @@ If you're worried about being busy around the time of a HW submission, please pl
 
 ## In Class Activities and Attendance:
 
-Most lectures will feature interactive activities and/or polls that support the material being presented. You must be present in class to participate in the activity or take the poll (participating in an online activity while not attending the synchronous session will be considered academic dishonesty and will be treated harshly). Each instructor may have a different style for assigning participation grades, but historical grading information suggests that each style results in a similar overall grade distribution. Participation grades will be posted on Canvas, and regularly updated. 
+Most lectures will feature interactive activities and/or polls that support the material being presented. You must be present in class to participate in the activity or take the poll (participating in an online activity while not attending the synchronous session will be considered academic dishonesty and will be treated harshly). Each instructor may have a different style for assigning participation grades, but historical grading information suggests that each style results in a similar overall grade distribution. Participation grades will be posted on Canvas, and will be updated regularly. 
 
-Attendance in the synchronous meetings is expected. Sometimes you cannot avoid missing a class. If you need to be away from class, it is your responsibility to catch up on the materials discussed in the class and inform the instructor to receive credit for any participation. 
+Attendance in the synchronous meetings (lectures and 'work on project' sessions) is expected. Sometimes you cannot avoid missing a class. If you need to be away from class, it is your responsibility to catch up on the materials discussed in the class and inform the instructor {as soon as possible, preferably before class} to receive credit for any participation. 
 
 If you join class in person, you are strongly encouraged to bring your laptop or phone to class so that you can participate in the activities.
 
 
 ### Policy on remote attendance
 
-If you are registered for an on-the-ground section but do not feel comfortable or are unable to attend in person, please contact your instructor in advance of class. Lectures for in-person sections are typically not recorded.
+If you are registered for an on-the-ground section but do not feel comfortable or are unable to attend in person, please contact your instructor in advance of class. 
 We would like to provide the best and most comfortable learning experience, and encourage you to stay at home if advised by a medical professional.
+Lectures for in-person sections are typically not recorded.
 
 ## Classroom Environment
 
@@ -63,13 +64,13 @@ You are free to reuse small snippets of example code found on the Internet (e.g.
 
 If you are concerned that by reusing and attributing that copied code it may appear that you didn't complete the assignment yourself, then please raise a discussion with the instructor. If you are in doubt whether using others' work is allowed, you should assume that it is NOT allowed unless the instructors confirm otherwise.
 
-To ensure that students have completed the work themselves, instructor might require students to explain the work they have submitted. We will consider adjusting grades based on your understanding of the course material.    
+**To ensure that students have completed the work themselves, instructor might require students to explain the work they have submitted. We will consider adjusting grades based on your understanding of the course material.**    
 
 ## Accommodations for Disabilities
 Students who have disabilities who wish to receive academic services and/or accommodations should visit the [Disability Access Services](https://disabilityaccessservices.sites.northeastern.edu/) at 20 Dodge Hall or call (617) 373-2675 (previously known as DRC)
 Please be sure to provide your instructor with DAS's accommodations letter early in the semester in order to avoid logistical challenges.
 This course includes a significant group work including project, and providing extensions for group work can be complex. DAS accomodations often do not apply to group submissions but we encourage you to work with your instructors to see how course staff can provide the support you might need. 
-As-per the DAS's policy, it is the student's responsibility to coordinate with the instructor in order to request suitable accommodations.
+As-per the DAS's policy, it is the **student's responsibility** to coordinate with the instructor in order to request suitable accommodations.
 
 ## Title IX Notice
 *Title IX of the Education Amendments of 1972 protects individuals from sex or gender-based discrimination, including discrimination based on gender-identity, in educational programs and activities that receive federal financial assistance.*
