@@ -1,30 +1,30 @@
 deadlines:
   '3':
     Wed:
-      date: 2024/01/24 11:00am 
+      date: 2025/01/22 12:00pm 
       content: ip1
   '4':
     Wed:
-      date: 2024/01/31 11:00am 
+      date: 2025/01/29 12:00pm 
       content: tp1
   '6':
     Wed:
-      date: 2024/02/14 11:00am
+      date: 2025/02/12 12:00pm
       content: tp2
   '7':
     Wed:
-      date: 2024/02/21 11:00am
+      date: 2025/02/19 12:00pm
       content: ip2
   '8':
     Wed:
-      date: 2024/02/28 11:00am
+      date: 2025/02/26 12:00pm
       content: tp3
   '14':
     Wed:
-      date: 2024/04/10 11:00am
+      date: 2025/04/09 12:00pm
       content: tp4
 dates:
-  firstMonday: 2024/01/08
+  firstMonday: 2025/01/06
   numWeeks: 15
 types:
   default:
