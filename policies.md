@@ -10,7 +10,7 @@ has_children: true
 There will be individual projects (previously known as assignments) and a team project (in a group of 3-4 members). The overall grading breakdown is:
 * 30% Individual project (10% for deliverable 1, 20% for deliverable 2)
 * 40% Team project (including peer evaluations / surveys)
-* 10% Participation in synchronous, in-class activities
+* 10% Participation in synchronous class, practice activities
 * 20% Exam
 
 **Assignment of team project grades:** In cases where team members do not equally contribute to the project, we may assign different grades to different individuals, up to an extreme of deducting 50% of the team project grade for a student (which might arise to 100% deduction for not contributing to the project at all). We will evaluate each individual's contribution on the basis of a variety of factors, including progress reports at weekly meetings, through inspecting version control history, through each students' self-reflection, and through each students' peer evaluation {during and/or} at the end of the project. We will make regular efforts to collect and distribute this feedback throughout the project — our ultimate goal is for all students to participate and receive full marks.
@@ -31,20 +31,15 @@ If you're worried about being busy around the time of a HW submission, please pl
 
 **For fairness to all, there are no exceptions to the above rules.**
 
-## In Class Activities and Attendance:
+## Practice Activities (or Labs) and Attendance:
 
-Most lectures will feature interactive activities and/or polls that support the material being presented. You must be present in class to participate in the activity or take the poll (participating in an online activity while not attending the synchronous session will be considered academic dishonesty and will be treated harshly). Each instructor may have a different style for assigning participation grades, but historical grading information suggests that each style results in a similar overall grade distribution. Participation grades will be posted on Canvas, and will be updated regularly. 
-
-Attendance in the synchronous meetings (lectures and 'work on project' sessions) is expected. Sometimes you cannot avoid missing a class. If you need to be away from class, it is your responsibility to catch up on the materials discussed in the class and inform the instructor {as soon as possible, preferably before class} to receive credit for any participation. 
+Most lectures will feature interactive activities (or Labs) and/or polls that support the material being presented. You must be present in class to participate in the activity or take the poll (participating in an online activity while not attending the synchronous session will be considered academic dishonesty and will be treated harshly). Each instructor may have a different style for assigning participation grades, but historical grading information suggests that each style results in a similar overall grade distribution. Participation grades will be posted on Canvas, and will be updated regularly. 
 
 If you join class in person, you are strongly encouraged to bring your laptop or phone to class so that you can participate in the activities.
 
+### Attendance
+Attendance in the synchronous meetings (lectures, 'work on project' sessions and final demos/presentations) is expected. Sometimes you cannot avoid missing a class. If you need to be away from class, it is your responsibility to catch up on the materials discussed in the class and inform the instructor {as soon as possible, preferably before class} to receive credit for any participation. 
 
-### Policy on remote attendance
-
-If you are registered for an on-the-ground section but do not feel comfortable or are unable to attend in person, please contact your instructor in advance of class. 
-We would like to provide the best and most comfortable learning experience, and encourage you to stay at home if advised by a medical professional.
-Lectures for in-person sections are typically not recorded.
 
 ## Classroom Environment
 
