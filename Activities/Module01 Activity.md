@@ -9,7 +9,7 @@ nav_exclude: true
 
 This activity will give you practice with using user stories to solicit and document user requirements, refining them into conditions of satisfaction, and assigning priorities.
 
-Before you start, be sure to review the tutorial [User Stories and Conditions of Satisfaction]({{site.baseurl}}{% link tutorials/week1-user-stories.md %}) on the course website.
+Before you start, be sure to review the tutorial "User Stories and Conditions of Satisfaction" on the course website.
 
 ### Scenario
 
