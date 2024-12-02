@@ -6,43 +6,43 @@
   page: /modules/1-requirements-testing
 1b:
   name: Typescript & Test Driven Development
-  page: /modules/2-requirements-to-code
+  page: 
 2a:
   name: Test Adequacy
-  page: /modules/3-test-adequacy
+  page: 
 2b:
   name: Code-Level Design Principles
-  page: /modules/4-code-level-design
+  page: 
 3a:
   name: Interaction-Level Design Patterns
-  page: /modules/5-interaction-level-design-patterns
+  page: 
 3b:
   name: Concurrency Patterns
-  page: /modules/6-concurrency-patterns-in-typescript
+  page: 
 4a:
   name: Software Processes & Agile
-  page: /modules/7-software-process
+  page: 
 4b:
   name: React Part 1 (Introduction)
-  page: /modules/8-react
+  page: 
 5a:
   name: React Part 2 (Hooks)
-  page: /modules/9-patterns-of-react
+  page: 
 5b:
   name: Distributed System Architectures (Part 1)
-  page: /modules/10-ds-1
+  page: 
 6a:
   name: Distributed System Architectures (Part 2)
-  page: /modules/11-distributed-systems-2
+  page: 
 6b:
   name: Tests with Larger Scope
-  page: /modules/12-larger-tests
+  page: 
 7a:
   name: Continuous Development
-  page: /modules/13-continuous-development
+  page: 
 7b:
   name: Principles for Cloud Deployment
-  page: /modules/14-cloud-infrastructure
+  page: 
 8a:
   name: Work on project (Discuss project plan/revisions)
 8b:
@@ -51,7 +51,7 @@
   name: Midterm Exam
 9b:
   name: Security
-  page: /modules/15-security
+  page: 
 10a:
   name: Work on project
 10b:
@@ -64,22 +64,22 @@ guest-pm:
   name: Work on Project
 11b:
   name: Open Source
-  page: /modules/16-open-source
+  page: 
 12a:
   name: Work on Project
 12b:
   name: Ethics and Equity in SE
-  page: /modules/17-ethics
+  page: 
 12c:
   name: Work on Project / Mini-Demo
 13a:
   name: Work on Project
 13b:
   name: Presentations
-  page: /assignments/sec-1258-demos
+  page: 
 14a:
   name: Presentations
-  page: /assignments/sec-9-demos
+  page: 
 pitch:
   name: Elevator Pitch
 posters:
@@ -88,30 +88,30 @@ advanced:
   name: Advanced Topics in SE
 dependency:
   name: Dependency Management
-  page: /modules/16a-dependencies
+  page: 
 ip1:
   name: Individual Project 1
   type: deadline
-  page: /assignments/ip1
+  page: 
 ip2:
   name: Individual Project 2 
   type: deadline
-  page: /assignments/ip2
+  page: 
 tp1:
   name: Project Formation
   type: deadline
 tp2:
   name: Preliminary Project Plan
   type: deadline
-  page: /assignments/project-plan
+  page: 
 tp3:
   name: Revised Project Plan
   type: deadline
-  page: /assignments/revised-project-plan
+  page: 
 tp4:
   name: Project Final Deliverable
   type: deadline
-  page: /assignments/project-deliverable
+  page: 
 veteransday:
   name: Veteran's Day (No class)
   type: holiday
