@@ -47,7 +47,7 @@ Each of these request types serves a specific purpose in API interactions, and P
 
 Each API request has key components:
 
-### 1. **URL**
+### 1. URL
 For this URL -> `https://localhost:8000/api/users`
 
 The URL defines the location of the API you're interacting with:
@@ -56,14 +56,14 @@ The URL defines the location of the API you're interacting with:
 - **Port** (`8000`)
 - **Endpoint** (`/api/users`)
 
-### 2. **Method**
+### 2. Method
 Defines the action type:
 - **GET**: Retrieves data
 - **POST**: Submits new data
 - **PUT**: Updates data
 - **DELETE**: Deletes data
 
-### 3. **Parameters (GET) vs. Body (POST)**
+### 3. Parameters (GET) vs. Body (POST)
 - **GET** sends data as **query parameters** in the URL:
 https://api.example.com/users?age=25
 In this example, `age=25` is a query parameter used to filter the list of users.
@@ -76,7 +76,7 @@ In this example, `age=25` is a query parameter used to filter the list of users.
 }
 ```
 
-### 4. **Headers**
+### 4. Headers
 Headers provide additional information about the request or the client making it. They help the server understand the request. Some common headers include:
 
 - **Content-Type**: Specifies the format of the request body (e.g., `application/json` for JSON data).
@@ -92,7 +92,7 @@ Headers provide additional information about the request or the client making it
     Accept: application/json
     ```
 
-### 5. **Response**
+### 5. Response
 After the server processes the request, it sends back a **response**. The response typically includes:
 
 - **Status Code**: A number indicating the result of the request.
@@ -112,7 +112,7 @@ After the server processes the request, it sends back a **response**. The respon
   }
   ```
 
-Mozilla documentation for reference: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+Mozilla documentation for reference: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Status](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 
 ## Steps to Install Postman
 
@@ -152,7 +152,7 @@ After installation, launch Postman. You'll see a workspace where you can start c
 ![Postman1](./assets/week1-apirequests-postman/Postman1.png)
 
 2. In the request window, choose the type of request method (GET, POST, PUT, DELETE) from the dropdown menu (default is GET).
-3. Enter the URL of the API you want to test in the input field (e.g., `http://localhost:8000/question/getQuestionById/67062b6dd9d59b115c559096`). Ensure that the ID is valid and belongs to one of the questions in the database.
+3. Enter the URL of the API you want to test in the input field (e.g., `http://localhost:8000/question/getQuestionById/67062b6dd9d59b115c559096?username=user`). Ensure that the ID is valid and belongs to one of the questions in the database.
 
 ![Postman2](./assets/week1-apirequests-postman/Postman2.png)
 
