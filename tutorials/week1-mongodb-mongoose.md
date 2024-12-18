@@ -17,6 +17,7 @@ Contents:
 - [Databases, Collections, and Documents](#databases-collections-and-documents)
 - [ObjectIDs and References](#objectids-and-references)
 - [Queries](#queries)
+- [Populate](#populate)
 - [Examples](#examples)
 - [Resources](#resources)
 
@@ -64,7 +65,8 @@ Mongoose provides representations of MongoDB concepts in the TypeScript/JavaScri
   const Kitten = mongoose.model("Kitten", kittySchema);
   ```
 
-  associates the `Kitten` variable with a collection named `Kitten`. All documents in this collection must follow the schema defined by `kittySchema`.
+  associates the `Kitten` variable with a collection named `Kitten`. Notice that Kitten is a constructor (like a class name), so
+we write it in upper case. All documents in this collection must follow the schema defined by `kittySchema`.
 
 - A document with schema `M` is represented by a TypeScript object created by saying `new C`, where `C` is constructor created by `mongoose.model`. For example
 
@@ -155,7 +157,7 @@ There are some circumstances where it is helpful to the query do more work. Cons
 
 ```typescript
 const q = await QuestionModel.findOneAndUpdate(
-  { _id: new ObjectId(qid) },
+  { _id: qid },
   { $addToSet: { views: username } },
   { new: true }
 );
@@ -178,7 +180,7 @@ Using findOneAndUpdate offers several advantages over manually retrieving, modif
 If we were to write code to process everything ourselves, it might look like this:
 
 ```typescript
-const question = await QuestionModel.findOne({ _id: new ObjectId(qid) });
+const question = await QuestionModel.findOne({ _id: qid });
 
 // Check if the username is already in the views array
 if (!question.views.includes(username)) {
@@ -199,7 +201,7 @@ By using findOneAndUpdate, you streamline the operation, make it more robust, an
 
 ### Populate
 
-As mentioned before, documents can reference other documents in MongoDB through the ObjectID fields. In the database, this information is stored as the ID itself, rather than the object. This is super useful for storage purposes, but when we want to access and use the information, we need more than just the ID. That's where the `populate` function comes in, allowing you to replace these simple references with the actual documents, simplifying the retrieval of data.
+As mentioned before, documents can reference other documents in MongoDB through the ObjectID fields. In the database, this information is stored as the ID itself, rather than the object. This is super useful for storage purposes, but when we want to access and use the information, we need more than just the ID. That's where the `populate` function comes in, allowing you to replace these simple references with the actual documents, simplifying the retrieval of data. `populate` will query the reference IDs in each document found to be returned, and replace the ID with the actual object value from the database. 
 
 #### How Populate Works
 
@@ -209,6 +211,7 @@ Imagine we have two collections: `User`s and `Post`s. Each `Post` references a `
 const postSchema = new mongoose.Schema({
   title: String,
   content: String,
+  // author: User is invalid, because "User" is not a legal type for a schema definition
   author: { type: mongoose.Schema.Types.ObjectId, ref: "User" },
 });
 
@@ -221,6 +224,8 @@ const User = mongoose.model("User", userSchema);
 const Post = mongoose.model("Post", postSchema);
 ```
 
+
+
 When querying for a post, we would normally just receive the ObjectID in the `author` field, such as:
 
 ```typescript
@@ -232,10 +237,10 @@ When querying for a post, we would normally just receive the ObjectID in the `au
 }
 ```
 
-To retrieve the actual user document, use populate:
+To retrieve the actual user document, use `populate`:
 
 ```typescript
-const posts = await Post.find().populate("author");
+const posts = await Post.find({ _id: "6754b691a33023f3e1fe9604" }).populate("author");
 ```
 
 which replaces the ObjectID in the author field with the referenced `User` document:
@@ -273,7 +278,7 @@ const Profile = mongoose.model("Profile", profileSchema);
 const User = mongoose.model("User", userSchema);
 ```
 
-Now, if we were to execute the previous populate query, the returned object would look like:
+Now, if we were to execute the previous `populate` query, the returned object would look like:
 
 ```typescript
 {
@@ -292,7 +297,7 @@ Now, if we were to execute the previous populate query, the returned object woul
 To access the object stored with the reference ID, we need to specify populating the field in the query:
 
 ```typescript
-const posts = await Post.find().populate({
+const posts = await Post.find({ _id: "6754b691a33023f3e1fe9604" }).populate({
   path: "author",
   populate: {
     path: "profile",
@@ -326,7 +331,7 @@ Some additional, advanced examples:
 - Select specific fields in the populated document:
 
   ```typescript
-  const posts = await Post.find().populate("author", "name");
+  const posts = await Post.find({ _id: "6754b691a33023f3e1fe9604" }).populate("author", "name");
   ```
 
   Returns:
@@ -354,7 +359,7 @@ Some additional, advanced examples:
   ```
 
   ```typescript
-  {
+  [{
     _id: "6754b691a33023f3e1fe9604",
     title: "Intro to MongoDB",
     content: "MongoDB is a database with a lot of features!",
@@ -363,12 +368,22 @@ Some additional, advanced examples:
         name: "Jane Doe",
         email: "jane@example.edu"
     }
-  }
+  },
+  {
+    _id: "6754b691a33023f4b2da2528",
+    title: "Understanding populate",
+    content: "You can do a lot with populate!",
+    author: {
+        _id: "6754b691c63175b2d1fc6490",
+        name: "Jack Doe",
+        email: "jack@example.edu"
+    }
+  }]
   ```
 
 #### Why Use Populate
 
-By using populate, you minimize boilerplate code for nested retrieval and ensure data consistency. You only need to ensure the one copy is updated, which is referenced in other placese. This approach is especially useful with complex relationships as it reduces errors, simplifies data retrieval, and improves consistency by automating the lookup of references.
+By using populate, you minimize boilerplate code for nested retrieval and ensure data consistency. You only need to ensure the one copy is updated, which is referenced in other places. This approach is especially useful with complex relationships as it reduces errors, simplifies data retrieval, and improves consistency by automating the lookup of references.
 
 However, if you find yourself using deeply nested populates, it's worth revisitng the database design and trying to simplify the schemas. Under the hood, populate executes additional queries for you, which can become very inefficient as database complexity and query size increase. In this toy example, we may want to get rid of the `Profile` collection, and instead define the fields directly within the `User` schema. These design decisions depend on the context and needs of the system.
 
