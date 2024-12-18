@@ -663,6 +663,8 @@ it('correctly renders the updated count after the user clicks the button', async
 A full list of testing functions from React Testing Library can be found [here](https://testing-library.com/docs/dom-testing-library/cheatsheet/).
 # Setting up testing using Jest in VSCode
 
+> For a monorepo project that has multiple root folders (for example, our final project), the Jest extension might need additional configuration to work. An alternative is [Jest Runner](https://marketplace.visualstudio.com/items?itemName=firsttris.vscode-jest-runner), which functions similar to the Jest extension and works out of the box.
+
 Testing can sometimes get cumbersome as the user is expected to remember all the options provided by Jest to run a specific set of tests, or otherwise the user will have to run the entire test suite just to verify the result of a single test case. Not anymore!
 
 With [vscode-jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest), you have complete control over the way you want to run tests, with many features that visually inform the users about which specific line is failing with what error.
@@ -711,7 +713,7 @@ If restarting Jest does not work, you can run the following in your VSCode by op
 
 ### Additional Extensions and Libraries
 
-If you would like to run each test individually (and all tests in test suites collectively), VSC extenstion called "Jest Runner" will be very useful. You can also explore [jest extended library](https://www.npmjs.com/package/jest-extended) that offers additional matchers for testing. 
+You can explore [jest extended library](https://www.npmjs.com/package/jest-extended) that offers additional matchers for testing. 
 
 ## Configuration
 
