@@ -31,35 +31,35 @@ If you're worried about being busy around the time of a HW submission, please pl
 
 **For fairness to all, there are no exceptions to the above rules.**
 
-## Practice Activities (or Labs) and Attendance:
+## Practice Activities and Attendance:
 
-Most lectures will feature interactive activities (or Labs) and/or polls that support the material being presented. You must be present in class to participate in the activity or take the poll (participating in an online activity while not attending the synchronous session will be considered academic dishonesty and will be treated harshly). Each instructor may have a different style for assigning participation grades, but historical grading information suggests that each style results in a similar overall grade distribution. Participation grades will be posted on Canvas, and will be updated regularly. 
+Most lectures will feature interactive activities (similar to labs) and/or polls that support the material being presented. You must be present in class to participate in the activity or take the poll (participating in an activity while not attending the synchronous session will be considered academic dishonesty and will be treated harshly). Each instructor may have a different style for assigning participation grades, but historical grading information suggests that each style results in a similar overall grade distribution. Participation grades will be posted on Canvas, and will be updated regularly. 
+
+### Attendance
+Attendance in the synchronous meetings (lectures, 'work on project' sessions, weekly TA meeting and project demos/presentations) is expected. Sometimes you cannot avoid missing a class. If you need to be away from class, it is your responsibility to inform the instructor {as soon as possible, preferably before class} to receive credit for any participation and catch up on the materials discussed in the class. University policy on attendance can be found [here](https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/attendance-requirements/)  
 
 If you join class in person, you are strongly encouraged to bring your laptop or phone to class so that you can participate in the activities.
 
-### Attendance
-Attendance in the synchronous meetings (lectures, 'work on project' sessions and final demos/presentations) is expected. Sometimes you cannot avoid missing a class. If you need to be away from class, it is your responsibility to catch up on the materials discussed in the class and inform the instructor {as soon as possible, preferably before class} to receive credit for any participation. 
-
-
-## Classroom Environment
-
-To create and preserve a classroom atmosphere that optimizes teaching and learning, all participants share a responsibility in creating a civil and non-disruptive forum for the discussion of ideas. Students are expected to conduct themselves at all times in a manner that does not disrupt teaching or learning. Your comments to others should be constructive and free from harassing statements. You are encouraged to disagree with other students and the instructor, but such disagreements need to respectful and be based upon facts and documentation (rather than prejudices and personalities). The instructors reserve the right to interrupt conversations that deviate from these expectations. Repeated unprofessional or disrespectful conduct may result in a lower grade or more severe consequences. Part of the learning process in this course is respectful engagement of ideas with others.
-
-Please don't be late. You are an essential part of the class. Your participation is an essential part of the class. If you are late, please be courteous to others when entering.
-
-BE PRESENT WHEN YOU ARE ATTENDING CLASS. Please do not distract yourself from the class by doing other activities such as phone calls, email, facebook, chat/IM/texting, games, web surfing -- unless it has a direct bearing on the course. Then, by all means, surf away!
-
 ## Academic Integrity
+
 Students must work individually on all homework assignments.
 We encourage you to have high-level discussions with other students in the class about the assignments, however, we require that when you turn in an assignment, it is only your work. That is, copying any part of another student's assignment is strictly prohibited.
 
 If you steal someone else's work, you fail the class. You are responsible for protecting your work. If someone uses your work, with or without your permission, you fail the class.
 
-You are free to reuse small snippets of example code found on the Internet (e.g., via StackOverflow) provided that it is attributed. Use of co-pilot is also enrouraged. Use of other generative AI technologies such as ChatGPT is not allowed. 
+You are free to reuse small snippets of example code found on the Internet (e.g., via StackOverflow) provided that it is attributed. Use of co-pilot is also enrouraged. **Use of other generative AI technologies such as ChatGPT is not allowed.** 
 
 If you are concerned that by reusing and attributing that copied code it may appear that you didn't complete the assignment yourself, then please raise a discussion with the instructor. If you are in doubt whether using others' work is allowed, you should assume that it is NOT allowed unless the instructors confirm otherwise.
 
 **To ensure that students have completed the work themselves, instructor might require students to explain the work they have submitted. We will consider adjusting grades based on your understanding of the course material.**    
+
+
+## Classroom Environment
+To create and preserve a classroom atmosphere that optimizes teaching and learning, all participants share a responsibility in creating a civil and non-disruptive forum for the discussion of ideas. Students are expected to conduct themselves at all times in a manner that does not disrupt teaching or learning. Your comments to others should be constructive and free from harassing statements. You are encouraged to disagree with other students and the instructor, but such disagreements need to respectful and be based upon facts and documentation (rather than prejudices and personalities). The instructors reserve the right to interrupt conversations that deviate from these expectations. Repeated unprofessional or disrespectful conduct may result in a lower grade or more severe consequences. Part of the learning process in this course is respectful engagement of ideas with others.
+
+Please don't be late. You are an essential part of the class. Your participation is an essential part of the class. If you are late, please be courteous to others when entering.
+
+BE PRESENT WHEN YOU ARE ATTENDING CLASS. Please do not distract yourself from the class by doing other activities such as phone calls, email, facebook, chat/IM/texting, games, web surfing -- unless it has a direct bearing on the course. Then, by all means, surf away!
 
 ## Accommodations for Disabilities
 Students who have disabilities who wish to receive academic services and/or accommodations should visit the [Disability Access Services](https://disabilityaccessservices.sites.northeastern.edu/) at 20 Dodge Hall or call (617) 373-2675 (previously known as DRC)

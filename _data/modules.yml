@@ -3,7 +3,7 @@
 # Each key has a "name" attribute (rendered on the calendar), a "page" attribute (which contains a link to the lesson) and an optional "type" attribute, which is a key into the _data/config.yml "types" dictionary.
 1a:
   name: Orientation & Requirements
-  page: /modules/1-requirements-testing
+  page: 
 1b:
   name: Typescript & Test Driven Development
   page: 
@@ -141,3 +141,5 @@ noClass:
   name: No Class
 extendedOfficeHours:
   name: Work Session / Extended Office Hours
+readingDay:
+  name: Reading Day / No class
