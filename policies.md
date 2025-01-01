@@ -40,18 +40,21 @@ Attendance in the synchronous meetings (lectures, 'work on project' sessions, we
 
 If you join class in person, you are strongly encouraged to bring your laptop or phone to class so that you can participate in the activities.
 
+## Instructor Meeting:
+All students are encouraged to meet with the instructor during office hours atleast once during the semester. The purpose of this meeting is to get to know you and to help provide any support that you may need to be successful in this course. 
+
 ## Academic Integrity
 
 Students must work individually on all homework assignments.
-We encourage you to have high-level discussions with other students in the class about the assignments, however, we require that when you turn in an assignment, it is only your work. That is, copying any part of another student's assignment is strictly prohibited.
+We encourage you to have high-level discussions with other students in the class about the assignments, however, we require that when you turn in an assignment, it is only your work. That is, copying any part of another student's assignment is strictly prohibited. 
 
 If you steal someone else's work, you fail the class. You are responsible for protecting your work. If someone uses your work, with or without your permission, you fail the class.
 
-You are free to reuse small snippets of example code found on the Internet (e.g., via StackOverflow) provided that it is attributed. Use of co-pilot is also enrouraged. **Use of other generative AI technologies such as ChatGPT is not allowed.** 
+You are free to reuse small snippets of example code found on the Internet (e.g., via StackOverflow) provided that it is properly attributed. Submitting {blindly} copy-pasted code from any online resources is never ok. **For individual projects, use of co-pilot or other generative AI technologies such as ChatGPT is not allowed.** For final projects, you will be allowed to use co-pilot and other generative AI technologies as long as they are clearly attributed in your submissions.  
+
+**To ensure that students have completed the work themselves (and have gained necessary understanding), instructors might require students to explain the work they have submitted. We will consider adjusting grades based on your understanding of the course material.**    
 
 If you are concerned that by reusing and attributing that copied code it may appear that you didn't complete the assignment yourself, then please raise a discussion with the instructor. If you are in doubt whether using others' work is allowed, you should assume that it is NOT allowed unless the instructors confirm otherwise.
-
-**To ensure that students have completed the work themselves, instructor might require students to explain the work they have submitted. We will consider adjusting grades based on your understanding of the course material.**    
 
 
 ## Classroom Environment
