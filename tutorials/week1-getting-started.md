@@ -22,7 +22,8 @@ If you run into any difficulties following any of these steps, please post (in a
 
 Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.
 
-For this class, you will need Node.js version 22 (22.12.0 was the latest version at time of writing, although any 22.x should work in theory).
+**For this class, you will need Node.js version 22 (22.12.0 was the latest version at time of writing, although any 22.x should work in theory).**
+
 There are many ways that you can install Node.js: for instance, you can use a package manager like
 `snap` or `homebrew` to install it; you can download an installer directly from the Node.js website, and you can,
 of course, build it from source. However, due to the complexity of running different Node.js versions on the same machine, we _very strongly_ suggest using `nvm`, as explained below.
