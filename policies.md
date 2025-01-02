@@ -50,7 +50,7 @@ We encourage you to have high-level discussions with other students in the class
 
 If you steal someone else's work, you fail the class. You are responsible for protecting your work. If someone uses your work, with or without your permission, you fail the class.
 
-You are free to reuse small snippets of example code found on the Internet (e.g., via StackOverflow) provided that it is properly attributed. Submitting {blindly} copy-pasted code from any online resources is never ok. **For individual projects, use of co-pilot or other generative AI technologies such as ChatGPT is not allowed.** For final projects, you will be allowed to use co-pilot and other generative AI technologies as long as they are clearly attributed in your submissions.  
+You are free to reuse small snippets of example code found on the Internet (e.g., via StackOverflow) provided that it is properly attributed. Submitting {blindly} copy-pasted code from any online resources is never ok. **For individual projects and activities, use of co-pilot or other generative AI technologies such as ChatGPT is not allowed.** For final projects, you will be allowed to use co-pilot and other generative AI technologies as long as they are clearly attributed in your submissions.  
 
 **To ensure that students have completed the work themselves (and have gained necessary understanding), instructors might require students to explain the work they have submitted. We will consider adjusting grades based on your understanding of the course material.**    
 
