@@ -210,7 +210,7 @@ If you want to run specific tests, we recommend that you install vsc-jest-runner
 
 This deliverable has 2 parts; each part will be graded on its own rubric. You should complete the assignment one part at a time, in the order presented here.
 
-### Task 1: Add `User`s
+### Task 1: Add Users
 
 Currently, our site doesn't allow for users to create unique accounts to use the forum. The objective of this task is to enhance the current functionality by allowing users to:
 
@@ -234,7 +234,7 @@ As a security feature, make sure to NOT return the user's password in the result
 
 3. **Define relevant TypeScript types**
 
-   In `server/types/user.d.ts`, define the relevant `User` and `UserCredentials` types to mirror the schema definition. Make sure to avoid repeated definitions of fields between the interfaces.
+   In `server/types/user.d.ts`, define the relevant types as marked by _TODO: Task 1_. Make sure to avoid repeated definitions of fields between the interfaces.
 
 4. **Implement the `saveUser` function**
 
@@ -284,7 +284,7 @@ As a security feature, make sure to NOT return the user's password in the result
 
     We've provided initial tests to provide some information on the expected behavior of the routes and functions. Using the requirement descriptions above, write additional tests for all the added functions and routes, covering different branches, edge cases, etc. to verify the correctness of your code.
 
-    In addition to automated tests, you should also manually test your route using Postman and MongoDBCompass to ensure that any database queries are correct since we use database mocks while testing with Jest.
+    In addition to automated tests, you should also manually test your route using Postman and MongoDB Compass to ensure that any database queries are correct since we use database mocks while testing with Jest.
 
 #### Grading (55 points)
 
@@ -320,7 +320,7 @@ Our website only allows user communication by asking and answering questions. Al
 
 5. **Implement the `addMessageRoute` endpoint**
 
-   In `server/controller/message.controller.ts`, implement the `addMessageRoute` endpoint. This route will handle POST requests to create a new message with the provided parameters in the request body.
+   In `server/controllers/message.controller.ts`, implement the `addMessageRoute` endpoint. This route will handle POST requests to create a new message with the provided parameters in the request body.
 
 6. **Implement the `getMessages` function**
 
@@ -328,13 +328,13 @@ Our website only allows user communication by asking and answering questions. Al
 
 7. **Implement the `getMessagesRoute` endpoint**
 
-   In `server/controller/message.controller.ts`, complete the `getMessagesRoute` endpoint so that it returns all messages.
+   In `server/controllers/message.controller.ts`, complete the `getMessagesRoute` endpoint so that it returns all messages.
 
 8. **Test all added functions**
 
    The frontend code of Task 2 is provided to you. If you have done everything correctly, you should now be able to run the webpage and test the functionality of the Global Chat feature manually.
 
-   In addition, write additional automated tests in `server\tests\controllers\message.controller.spec.ts` and `server\tests\services\message.service.spec.ts`.
+   In addition, write additional automated tests in `server/tests/controllers/message.controller.spec.ts` and `server/tests/services/message.service.spec.ts`.
 
 {: .note }
 Did you see the pattern in both Task 1 and Task 2? For your final project, when you add a new feature, consider if your new feature should follow this pattern and what change would be needed. For example, if you were to add a direct messaging feature, how should you modify `Message` so that the web app can send it to a specific user?
