@@ -207,7 +207,11 @@ Typescript is a superscript of JavaScript which adds type information and other 
 
 - This will install Typescript locally in the current directory.
 
-6. Run the command `npx ts-node hello-world.ts`.
+6. Initialize a tsconfig.json file by running the command `npx tsc --init` .
+
+- This generates a tsconfig.json file with default TypeScript compiler options, which you can customize later if needed.
+
+7. Run the command `npx ts-node hello-world.ts`.
 
 - If you are prompted, enter `y`.
 - This will give the result below.
