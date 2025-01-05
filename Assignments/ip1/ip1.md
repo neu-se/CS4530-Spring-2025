@@ -325,17 +325,18 @@ Our website only allows user communication by asking and answering questions. Al
 
    In `server/controllers/message.controller.ts`, implement the `addMessageRoute` endpoint. This route will handle POST requests to create a new message with the provided parameters in the request body.
 
-7. **Implement the `getMessages` function**
+6. **Implement the `getMessages` function**
 
    In `server/services/message.service.ts`, implement the function for returning all messages from the database, sorted by date in ascending order.
 
-8. **Implement the `getMessagesRoute` endpoint**
-{: .note }*
+7. **Implement the `getMessagesRoute` endpoint**
+
+{: .note }
 There is a typo in the documentation of the `getMessagesRoute` endpoint. It is supposed to say "Fetch all messages in *ascending* order of their date and time". The same typo also exists in `client\src\services\messageService.ts`, but you don't need to modify anything.
 
    In `server/controllers/message.controller.ts`, complete the `getMessagesRoute` endpoint so that it returns all messages.
 
-10. **Test all added functions**
+8. **Test all added functions**
 
    The frontend code of Task 2 is provided to you. If you have done everything correctly, you should now be able to run the webpage and test the functionality of the Global Chat feature manually.
 
