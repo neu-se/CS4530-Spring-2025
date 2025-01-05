@@ -28,7 +28,7 @@ The objectives of this assignment are to:
 
 ## Getting started with this assignment
 
-Start by accepting our [invitation](https://classroom.github.com/a/2DE23Yji). It will create a Github repository for you which will include the starter code for this assignment. In case you have enrolled in the course recently, you may not find your name in the list. Please create a piazza post to contact us and we will add you to the Github Classroom roster.
+Start by accepting our [invitation](https://classroom.github.com/a/ghlPwuzJ). It will create a Github repository for you which will include the starter code for this assignment. In case you have enrolled in the course recently, you may not find your name in the list. Please create a piazza post to contact us and we will add you to the Github Classroom roster.
 
 If you are new to Git, you may want to review the getting started page available in your project repository (look for "The Basics of GitHub.md")!
 
