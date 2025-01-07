@@ -18,7 +18,9 @@ FakeStackOverFlow is a web application that consists of some code that runs in e
 This implementation effort will be split across two deliverables. In this first deliverable, you will implement and test the core backend components for this feature, and in the second deliverable, you will implement and test the frontend components.
 
 ## Change Log
-- 1/5/2025: Added a note about a typo in the starter code (`server\controllers\message.controller.ts` and `client\src\services\messageService.ts`)
+
+- 1/6/2025: Added a note about a typo in the starter code comment for createUser (`server/controllers/user.controller.ts`)
+- 1/5/2025: Added a note about a typo in the starter code (`server/controllers/message.controller.ts` and `client/src/services/messageService.ts`)
 
 ## Objectives of this assignment
 
@@ -245,6 +247,9 @@ As a security feature, make sure to NOT return the user's password in the result
 
 5. **Implement the `createUser` endpoint**
 
+   > {: .note }
+   > There is a typo in the documentation of the `createUser` endpoint. It should say "\* @param req The request containing username and password in the body." instead. There is _no_ email attribute in the request body.
+
    In `server/controllers/user.controller.ts`, implement the `createUser` endpoint. This route will handle POST requests to create a new user with the provided credentials in the request body. You do not need to encrypt the password when storing in the database.
 
 6. **Implement the `getUserByUsername` function**
@@ -330,8 +335,9 @@ Our website only allows user communication by asking and answering questions. Al
    In `server/services/message.service.ts`, implement the function for returning all messages from the database, sorted by date in ascending order.
 
 7. **Implement the `getMessagesRoute` endpoint**
+
    > {: .note }
-     There is a typo in the documentation of the `getMessagesRoute` endpoint. It is supposed to say "Fetch all messages in *ascending* order of their date and time". The same typo also exists in `client\src\services\messageService.ts`, but you don't need to modify anything.
+   > There is a typo in the documentation of the `getMessagesRoute` endpoint. It is supposed to say "Fetch all messages in _ascending_ order of their date and time". The same typo also exists in `client\src\services\messageService.ts`, but you don't need to modify anything.
 
    In `server/controllers/message.controller.ts`, complete the `getMessagesRoute` endpoint so that it returns all messages.
 
