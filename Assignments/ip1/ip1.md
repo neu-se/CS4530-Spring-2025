@@ -19,6 +19,7 @@ This implementation effort will be split across two deliverables. In this first 
 
 ## Change Log
 
+- 1/7/2025: Added a note about updating the Node version in the GitHub Actions workflow. (`.github/workflows/main.yml`)
 - 1/6/2025: Added a note about a typo in the starter code comment for createUser (`server/controllers/user.controller.ts`)
 - 1/5/2025: Added a note about a typo in the starter code (`server/controllers/message.controller.ts` and `client/src/services/messageService.ts`)
 
@@ -411,6 +412,15 @@ Once your submission is pushed to your main branch, GitHub will automatically ru
 
 ![image]({{site.baseurl}}{% link /Assignments/ip1/ActionsTab.png %})
 
+{: .note } Please update the node version used in the github action workflow to be `22.x` instead of `20.x`. This will fix any memory leaks errors raised while executing the test suite. In particular, change lines 23-26 of `.github/workflows/main.yml` to be:
+
+```yml
+- name: Set up Node.js 22.x
+  uses: actions/setup-node@v4
+  with:
+    node-version: "22.x"
+```
+
 #### Debugging
 
 If you need help troubleshooting a problem, be sure to follow all the steps outlined in the course's [debugging policy]({{ site.baseurl }}{% link debugging.md %}). This will ensure you have exhausted all initial debugging strategies before reaching out for assistance from the TAs.
@@ -420,3 +430,11 @@ If you need help troubleshooting a problem, be sure to follow all the steps outl
 Please refer to the [course policy page](https://neu-se.github.io/CS4530-Spring-2025/policies/#academic-integrity) for more details.
 
 **For this assignment, the use of co-pilot or other generative AI technologies such as ChatGPT is not allowed.**
+
+```
+
+```
+
+```
+
+```
