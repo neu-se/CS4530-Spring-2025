@@ -412,7 +412,8 @@ Once your submission is pushed to your main branch, GitHub will automatically ru
 
 ![image]({{site.baseurl}}{% link /Assignments/ip1/ActionsTab.png %})
 
-{: .note } Please update the node version used in the github action workflow to be `22.x` instead of `20.x`. This will fix any memory leaks errors raised while executing the test suite. In particular, change lines 23-26 of `.github/workflows/main.yml` to be:
+> {: .note }
+> Please update the node version used in the github action workflow to be `22.x` instead of `20.x`. This will fix any memory leaks errors raised while executing the test suite. In particular, change lines 23-26 of `.github/workflows/main.yml` to be:
 
 ```yml
 - name: Set up Node.js 22.x
