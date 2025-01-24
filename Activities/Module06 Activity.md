@@ -17,8 +17,7 @@ In this activity, you will experiment with asynchronous programming constructs i
 
 ### Getting started
 
-Run `npm install` to download the dependencies for this project, and then open it in your IDE of
-choice. Run `npm run examples` to run the examples as-is, the output should be something like:
+As usual, download the [starter code]({{ site.baseurl }}{% link Activities/module06-async-activity.zip %}) and run `npm install`. Then run `npm run examples` to run the examples as-is. The output should be something like:
 
 ```
 Creating a student
@@ -42,9 +41,9 @@ Import grades completed, and returned:
 
 ### Stringing together many async calls: bulk importing grades
 
-Your task is to write 3 new, `async` functions, `importGrades1`, `importGrades2`, and
-`importGrades3`, which take in input of the type `ImportTranscript[]`. It should create a student
-record for each `ImportTranscript`, and then post the grades for each of those students. After
+Your task is to write 3 new `async` functions, `importGrades1`, `importGrades2`, and
+`importGrades3`. Each of these functions takes an input of the type `ImportTranscript[]`, creates a student
+record for each `ImportTranscript`, and then posts the grades for each of those students. After
 posting the grades, it should fetch the transcripts for each student and return an array of
 transcripts.
 
