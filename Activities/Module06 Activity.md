@@ -7,16 +7,18 @@ nav_exclude: true
 # Simple Activity using async/await
 
 Learning Objectives for this activity:
-* Practice applying asynchronous programming concepts: promises, async/await
-* Experiment with applying different ordering constraints in asynchronous code
+
+- Practice applying asynchronous programming concepts: promises, async/await
+- Experiment with applying different ordering constraints in asynchronous code
 
 ## Overview
+
 In this activity, you will experiment with asynchronous programming constructs in TypeScript.
 
 ### Getting started
-Download the [starter Code]({{ site.baseurl }}{% link Activities/module06-async-activity.zip %})
-Run `npm install` to download the dependencies for this project, and then open it in Visual Studio Code. 
-Run `npm run client` to run the client as-is, the output should be something like:
+
+Run `npm install` to download the dependencies for this project, and then open it in your IDE of
+choice. Run `npm run examples` to run the examples as-is, the output should be something like:
 
 ```
 Creating a student
@@ -39,14 +41,19 @@ Import grades completed, and returned:
 ```
 
 ### Stringing together many async calls: bulk importing grades
-Your task is to write a new, `async` function, `importGrades`, which takes in input of the type `ImportTranscript[]`.
-`importGrades` should create a student record for each `ImportTranscript`, and then post the grades for each of those students.
-After posting the grades, it should fetch the transcripts for each student and return an array of transcripts. 
 
-You should implement `importGrades` in the file `examples.ts` - note that there is already a function stub there.
-As you get started, examine the transcript server client in `client.ts`, and take note of the API calls that are available to you.
+Your task is to write 3 new, `async` functions, `importGrades1`, `importGrades2`, and
+`importGrades3`, which take in input of the type `ImportTranscript[]`. It should create a student
+record for each `ImportTranscript`, and then post the grades for each of those students. After
+posting the grades, it should fetch the transcripts for each student and return an array of
+transcripts.
+
+You should implement the functions in the file `examples.ts` - note that there is already a function
+stub there for `importGrades1`. As you get started, examine the transcript server examples in
+`examples.ts`, and take note of the API calls that are available to you.
 
 Here is the type definition for `ImportTranscript` and its dependencies:
+
 ```
 type ImportTranscript = {
   studentName: string;
@@ -57,6 +64,7 @@ type Course = string;
 ```
 
 Example input:
+
 ```
 [
     {
@@ -71,6 +79,11 @@ Example input:
 ```
 
 Implement this three ways:
-1. Insert a student, insert each of their grades (in order), then insert the next student, then their grades, etc. until all students are inserted, then fetch transcripts
-2. Insert a student, then insert each of their grades (in order), then fetch their transcript. Do this set of operations asynchronously (concurrently) for all students
-3. Insert a student, then insert each of their grades asynchronously (concurrently). After all students have all of their grades submitted, fetch all fo the transcripts asynchronously (concurrently)
+
+1. Insert a student, insert each of their grades (in order), then insert the next student, then
+   their grades, etc. until all students are inserted, then fetch transcripts.
+2. Insert a student, then insert each of their grades, then fetch their transcript (in order). Do
+   this set of operations asynchronously (concurrently) for all students.
+3. Insert a student, then insert each of their grades, asynchronously (concurrently). After all
+   students have all of their grades submitted, fetch all of the transcripts asynchronously
+   (concurrently).
