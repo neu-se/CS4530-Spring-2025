@@ -21,10 +21,10 @@
   page: /modules/6-concurrency-patterns-in-typescript
 4a:
   name: Software Processes & Agile
-  page: 
+  page: /modules/7-software-process
 4b:
   name: React Part 1 (Introduction)
-  page: 
+  page: /modules/8-react
 5a:
   name: React Part 2 (Hooks)
   page: 
