@@ -20,12 +20,13 @@ Examples of features that students might propose include:
 * Allow users to pose and answer questions using Markdown
 * Allow users to register and save a profile using some SSO tool for authentication
 * Improve the accessibility of the UI for some class of user (e.g.: screen-reader user, low-vision user, user with color-blindness)
-* Modify the code so that it is easy to switch to other persistence options: (e.g. Firebase, Supabase, Postgres + GraphQL)
+* Modify the code so that it is easy to switch to other persistence options: (e.g. Firebase, Supabase, Postgres + GraphQL).
 * Modify the code to generate secure and documented APIs using [tsoa](https://tsoa.com/) and [swagger](https://swagger.io/).
 * Retarget the client to use the Chakra UI library
 * Improve the quality of the tests
 * Add direct messaging and other chat features
-* Propose some cool app using the infrastructure in the starter code (REST, WebSockets, persistent database)
+* Add game-playing or other features for collaboration and social interaction.  (If you do this, it should offer some features beyond the ones in IP2)
+* Propose some other cool app using the infrastructure in the starter code (REST, WebSockets, persistent database).  Use your imagination!
 
 Please note that multiple teams might choose to propose the same feature, or a variation of that same feature - this is OK.
 
@@ -40,7 +41,7 @@ You should plan on spending the next two weeks (from Feb 3 until Feb 12) in a "S
 
 You should be in contact with your assigned TA mentor before you submit the project plan, so they can answer questions and make sure you are on the right track. You may wish to share a draft of your plan with them *before* the deadline to get early feedback.
 
-Your team will self-organize, as agile teams do, and will enhance and adapt its plan during the project lifecycle.
+Your team will self-organize, as agile teams should, and will enhance and adapt its plan during the project lifecycle.
 As such, the primary goal of this document is to *begin* the planning process, and *not* to produce a detailed plan that must be followed precisely.
 The course staff will provide regular feedback on your project to help ensure that the scope of your project is appropriate.
 
@@ -48,7 +49,7 @@ We list page *maximums* for each section as general guidance of what we are will
 
 
 ## Problem Statement, User Stories and Acceptance Criteria (max 4 pages)
-Your project plan should begin with a 1-3 paragraph introductory problem statement: what problem in StackOverflow does your (proposed) features solve? Provide a paragraph (or two) that describes why you are interested in building these features. 
+Your project plan should begin with a 1-3 paragraph introductory problem statement: what problem in StackOverflow do your (proposed) features solve?  Provide a clear description of the feature or features you are proposing. For example, if you are proposing a "secure chat" feature, explain what you mean by "secure". 
 
 Given the problem statement, develop exactly 3 user stories that show how a user would interact with the features. User stories are requirements specified in the following format 
 "As a < type of user >, I want < some goal > so that < some reason >."
@@ -65,7 +66,7 @@ Some of the suggested projects above are primarily about some non-functional qua
 
 Do not provide more than three user stories. Your problem statement and description of user stories and conditions of satisfaction should be between 2-4 pages.
 
-We recommend that you provide a table that includes all user stories and related conditions of satisfaction. 
+The user stories must be numbered (1,2,3) and each the conditions of satisfaction must likewise be numbered (1.1, 1.2, 1.3) and laid out in a table for easy reference. 
 
 ## Work Breakdown (max 10 pages)
 Given the project concept that you have chosen and the functionality that you expect to implement to satisfy your user stories, define a breakdown of the work that will be necessary to complete the project.
@@ -117,8 +118,8 @@ Each team submits a single document to Canvas.
 The project plan will account for 10% of your project grade, and will be graded out of 100 points. The grading of the project plan is further broken down as follows:
 
 ### Introductory problem statement (5 points): 
-* Receive full marks if there is a narrative consisting of 1-3 paragraphs that describes the specific problems that your project aims to solve.
-* Receive partial credit if the narrative is present, but does not describe the problems that the project aims to solve
+* Receive full marks if there is a narrative consisting of 1-3 paragraphs that describes the specific problems that your project aims to solve, and provides a clear description of the feature or features you are proposing.
+* Receive partial credit if the narrative is present, but does not describe the problems that the project aims to solve, or does not give a clear description of the feature or features you are proposing.
 
 ### User stories (35 points):
 Your user stories taken together will account for 15% of your grade on this assignment.  Each user story will be graded as follows:
