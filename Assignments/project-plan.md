@@ -120,7 +120,7 @@ The project plan will account for 10% of your project grade, and will be graded 
 * Receive full marks if there is a narrative consisting of 1-3 paragraphs that describes the specific problems that your project aims to solve.
 * Receive partial credit if the narrative is present, but does not describe the problems that the project aims to solve
 
-### User stories (15 points):
+### User stories (35 points):
 Your user stories taken together will account for 15% of your grade on this assignment.  Each user story will be graded as follows:
 * Receive full marks if:
   * The user story fits the problem statement
@@ -135,10 +135,10 @@ The user stories must be numbered (1,2,3) and each the conditions of satisfactio
 Remember that you will get full credit for delivering a minimum viable product (MVP) only if you deliver working implementations of all of your essential user stories and conditions of satisfaction. To receive full credit in the project, you must implement MVP AND all desirable conditions of satisfaction. 
   
 
-### Work breakdown (80 points):
+### Work breakdown (60 points):
 Your work breakdown will be evaluated holistically on the following rubric:
 
-#### Coverage of tasks needed (20 points):
+#### Coverage of tasks needed (30 points):
 Receive full marks if the work breakdown includes all (reasonably expected) tasks to implement your feature, considering these kinds of tasks: 
   * Background research 
   * Design of interfaces and data types
@@ -150,13 +150,13 @@ Receive full marks if the work breakdown includes all (reasonably expected) task
 It is not possible to state generically for all projects whether *all* of the above types of tasks are necessary.
 However, we believe that this list is exhaustive (we do not expect other kinds of tasks).
 
-#### Assignment of tasks (10 points):
+#### Assignment of tasks (5 points):
 Receive full marks if:
 * Each element on the work breakdown is assigned to one team member
 * Each team member is assigned work that includes development / coding, even if working with pair programming 
 * The distribution of tasks of each size are roughly similar between the whole team (no single person is assigned significantly more or fewer tasks of one size)
 
-#### Sizing of tasks (40 points):
+#### Sizing of tasks (20 points):
 Receive full marks if each element on the work breakdown:
 * Has a size estimate (small, medium, or large) that is provided by the team member assigned the task.
 * Has a responsible justification for that estimation
@@ -164,7 +164,7 @@ Receive full marks if each element on the work breakdown:
   * Is accompanied by a reasonable explanation of why the team is unable to provide a responsible estimate
   * Is accompanied by at least one small or medium task, scheduled well-before the "large" task is due to be completed. We would expect that most of these research tasks are scheduled to sprint 0, or perhaps sprint 1.
 
-#### Scheduling of tasks (10 points):
+#### Scheduling of tasks (5 points):
 Receive full marks if each element on the work breakdown:
 * Is assigned to a sprint
 * There are no obvious constraint violations (tasks that logically must happen before others should be scheduled before them)
