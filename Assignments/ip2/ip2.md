@@ -23,9 +23,11 @@ The objectives of this assignment are to:
 
 Start by accepting our [invitation](https://classroom.github.com/a/avzeZ5De). It will create a Github repository for you which will include the starter code for this assignment. Run npm install within `./client` and `./server` to fetch the dependencies. You should not install any additional dependencies: **‘package.json’ must be unchanged**.
 
-{ : .note } Refer to [IP1](https://neu-se.github.io/CS4530-Spring-2025/assignments/ip1) for instructions related to setting up MongoDB, setting environment variables, and running the client and server.
+{ : .note }
+Refer to [IP1](https://neu-se.github.io/CS4530-Spring-2025/assignments/ip1) for instructions related to setting up MongoDB, setting environment variables, and running the client and server.
 
-{: .note } **System-level dependencies:** The libraries used for React require some native binaries to be installed -- code written and compiled for your computer (not JavaScript). If you run into issues with `npm install` not succeeding, please try installing the following libraries using either [Homebrew (if on Mac)](https://brew.sh), apt-get, or your favorite other package manager: `pixman`, `cairo`, `pkgconfig` and `pango`. For example, on a Mac, after installing Homebrew, run `brew install pixman cairo pkgconfig pango`. **You should not continue with the installation until this succeeds.** On Windows: Students have reported seeing the failure `error /bin/bash: node: command not found` upon `npm install` in the `client` directory. If you encounter this error, please try to delete the `node_modules` directory and re-run `npm install` in the `client` directory from a bash shell instead of a windows command prompt.
+{: .note }
+**System-level dependencies:** The libraries used for React require some native binaries to be installed -- code written and compiled for your computer (not JavaScript). If you run into issues with `npm install` not succeeding, please try installing the following libraries using either [Homebrew (if on Mac)](https://brew.sh), apt-get, or your favorite other package manager: `pixman`, `cairo`, `pkgconfig` and `pango`. For example, on a Mac, after installing Homebrew, run `brew install pixman cairo pkgconfig pango`. **You should not continue with the installation until this succeeds.** On Windows: Students have reported seeing the failure `error /bin/bash: node: command not found` upon `npm install` in the `client` directory. If you encounter this error, please try to delete the `node_modules` directory and re-run `npm install` in the `client` directory from a bash shell instead of a windows command prompt.
 
 These are some convenience scripts that you can use while working on the assignment:
 
@@ -119,7 +121,7 @@ In this task, we'll build on this to allow users to interact with it in the fron
 - `ProfileSettings` component = 5 points
 - `getUsersList` service = 2 points
 - `getUsers` endpoint = 2 points
-- `Users` page = 11 points
+- `Users` page = 10 points
   - `UsersListHeader` = 1
   - `UsersListPage` = 2
   - `useUserSearch` = 2
@@ -139,7 +141,7 @@ There are many variations of [Nim](https://en.wikipedia.org/wiki/Nim), but for t
 
 The backend is implemented for you, with the main focus on working with React and sockets for this task. We encourage you to go through the server code and tests to better understand the API routes and game mechanisms.
 
-#### Steps to Achieve This:
+#### Steps to Achieve This
 
 1. **Complete the `useAllGamesPage` custom hook**
 
@@ -169,7 +171,7 @@ The backend is implemented for you, with the main focus on working with React an
 
    In `client/src/components/main/games/nimGamePage/index.tsx`, we've defined a component to display the Nim game state. It displays the rules of the game, the current game state information, and has input to make a move. Follow the inline comments to complete the component.
 
-#### Grading (40 points)
+#### Grading (43 points)
 
 - `useAllGamesPage` hook = 6 points
 - `GameCard` component = 3 points
@@ -182,8 +184,6 @@ The backend is implemented for you, with the main focus on working with React an
 ### Task 3: Direct Messages
 
 In this task, you will implement a chat system that allows users to create chats, add messages, retrieve chats, and add participants. You will be working on the backend and database layers to implement this functionality, and complete some frontend components to allow the user to interact with it.
-
----
 
 #### Steps to Achieve This - Server
 
@@ -268,7 +268,6 @@ In this task, you will implement a chat system that allows users to create chats
      - `getChatRoute`
      - `addParticipantToChatRoute`
      - `getChatsByUserRoute`
-
      - Ensure that all routes are properly tested for validation, success, and error responses.
 
    - Manually test the chat functionality using tools like Postman or a frontend.
@@ -290,9 +289,9 @@ In this task, you will implement a chat system that allows users to create chats
 
 4. **Manual Testing**
 
-   Though automated tests are not required for frontend functionality, we strongly suggest exntesively testing each of the components extensively. Explore edge cases in your browser to identify potential bugs in the functionality. Remember - if the socket code is correctly set up, each update should instantly show up across 2 tabs open in parallel, without needing to navigate away from the page (make an additional API call). Try chatting between 2 different users to test your implementation.
+   Though automated tests are not required for frontend functionality, we strongly suggest exntesively testing each of the components extensively. Explore edge cases in your browser to identify potential bugs in the functionality. Remember - if the socket code is correctly set up, each update should instantly show up across 2 tabs open in parallel, without needing to navigate away from the page. Try chatting between 2 different users to test your implementation.
 
-#### Grading (84 points)
+#### Grading (81 points)
 
 - Define Schema, Model, and Chat Types = 4 points
   - Chat schema and model = 2
@@ -304,10 +303,10 @@ In this task, you will implement a chat system that allows users to create chats
   - `addParticipantToChat` = 2
   - `getChat` = 1
   - `getChatsByParticipants` = 1
-- Implement `chat.controller.ts` Endpoints = 19 points
+- Implement `chat.controller.ts` Endpoints = 18 points
   - `isCreateChatRequestValid` = 2
   - `isAddMessageRequestValid` = 2
-  - `isAddParticipantRequestValid` = 2
+  - `isAddParticipantRequestValid` = 1
   - `createChatRoute` = 3
   - `addMessageToChatRoute` = 4
   - `addParticipantToChatRoute` = 2
@@ -315,12 +314,12 @@ In this task, you will implement a chat system that allows users to create chats
   - `getChatByParticipants` = 2
 - Join chat event = 2 points
 - Leave chat event = 2 points
-- Testing = 22 points
-  - Testing `chat.service.ts` = 12
+- Testing = 20 points
+  - Testing `chat.service.ts` = 10
   - Testing `chat.controller.ts` = 10
 - `ChatsListCard` component = 2 points
 - `useDirectMessage` hook = 15 points
-- `DirectMessage` component = 9
+- `DirectMessage` component = 9 points
 
 ## Submission Instructions & Grading
 
