@@ -317,6 +317,7 @@ In this task, you will implement a chat system that allows users to create chats
 - Testing = 20 points
   - Testing `chat.service.ts` = 10
   - Testing `chat.controller.ts` = 10
+    - Tests for socket events are not required.
 - `ChatsListCard` component = 2 points
 - `useDirectMessage` hook = 15 points
 - `DirectMessage` component = 9 points
@@ -345,7 +346,9 @@ npm run lint:fix
 
 #### Testing
 
-You will be provided with starter code that includes a set of tests. Your task is to ensure that all existing tests pass and to create additional tests to cover any new functionality or edge cases in the server. You do not need to write automated tests for the frontend, but are encouraged to extensively manually test your implementation.
+You will be provided with starter code that includes a set of tests. Your task is to ensure that all existing tests pass and to create additional tests to cover any new functionality or edge cases in the server. You do not need to write Jest tests for socket code in the server (e.g. `socket.emit` statements in `chat.controller.ts`, `joinChat`, `leaveChat` events). However, you will be able to identify if it's working correctly by interacting with the frontend client.
+
+You do not need to write automated tests for the frontend, but are encouraged to extensively manually test your implementation.
 
 ### Manual Grading
 
