@@ -26,7 +26,7 @@ Socket.IO is a library that enables real-time, bidirectional, and persistent com
 
 ## How Does It Work?
 
-Socket.IO follows the ["observer pattern" or "listener pattern"](https://neu-se.github.io/CS4530-Fall-2024/modules/5-interaction-level-design-patterns) discussed in class. In this context:
+Socket.IO follows the ["observer pattern" or "listener pattern"](https://neu-se.github.io/CS4530-Spring-2025/modules/5-interaction-level-design-patterns) discussed in class. In this context:
 
 - **Publisher** - A publisher can be identified where `.emit` is used. This _emits_ (sends) out data to the specified channel, making it available to any _subscriber_ to the channel.
 - **Subscriber** - A subscriber can be identified where `.on` is used. This listens for updates emitted by a _publisher_ to the specified channel and executes a handler function (if applicable).
