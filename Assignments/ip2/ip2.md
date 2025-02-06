@@ -10,6 +10,10 @@ submission_notes: Submit through Github Classroom (Commit your work in main bran
 
 Welcome back to the Stack Overflow team! In this second deliverable, you will be implementing new and exciting features to enhance the frontend interface and bring the web application to life. This assignment builds on the foundation you laid in the first project and will deepen your skills in frontend development with TypeScript and React.
 
+## Change Log
+
+- 2/5/2025: With reference to [Piazza post 337](https://piazza.com/class/m3n5k1hgp6i3yf/post/337), update line 6 of `server/package.json` to be `"mongoose": "8.9.2",` (remove the `^`) to fix a source of memory leaks.
+
 ## Objectives of this assignment
 
 The objectives of this assignment are to:
