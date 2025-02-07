@@ -9,6 +9,31 @@ nav_order: 8
 
 This tutorial covers the basic concepts of UI testing and end-to-end (E2E) testing using Cypress. By the end, you’ll have a clear understanding of UI testing, how it compares with other forms of testing, and how to implement Cypress for UI testing with practical examples.
 
+
+## Demo Project for Practice
+Before we dive into the details, you can download and set up a demo project that will help you understand Cypress testing better. This project will provide a hands-on environment where you can explore different scenarios and practice writing Cypress tests.
+
+### 1. Download the Cypress Demo Project
+Download the Cypress demo project from the link below.
+
+[Cypress Demo]({{ site.baseurl }}{% link tutorials/assets/cypress-demo.zip %})
+### 2. Install Dependencies
+
+After downloading and extracting the ZIP file, navigate to the project directory and install the necessary dependencies using npm:
+
+```bash
+cd cypress-demo
+npm install
+```
+
+### 3. Open Cypress
+
+Once the dependencies are installed, open Cypress using the following command:
+
+```bash
+npx cypress open
+```
+
 ## Contents:
 
 - [What is UI Testing?](#what-is-ui-testing)
@@ -40,6 +65,7 @@ UI testing focuses specifically on the frontend (how a user interacts with the a
 | **Use Cases**        | Testing individual elements or flows    | Ensuring the entire app works as a whole|
 
 ### Example Scenarios
+
 
 Here are some scenarios where UI testing is typically used:
 
@@ -98,7 +124,9 @@ Here are some common commands you'll use frequently when writing UI tests in Cyp
 ## Example Scenarios and Tests
 Here are a few scenarios that show how Cypress can be used for UI testing:
 
-### Scenario 1: Testing a Login Form
+### UI Testing Scenarios:
+
+#### Scenario 1: Testing a Login Form
 This test checks if the login form functions as expected when correct and incorrect credentials are submitted.
 
 ```typescript
@@ -121,7 +149,7 @@ describe('Login Form', () => {
 });
 ```
 
-### Scenario 2: Testing a Search Feature
+#### Scenario 2: Testing a Search Feature
 This test verifies that searching for a keyword returns the correct results.
 ```typescript
 describe('Search Feature', () => {
@@ -135,7 +163,7 @@ describe('Search Feature', () => {
 });
 ```
 
-### Scenario 3: Form Submission and Validation
+#### Scenario 3: Form Submission and Validation
 In this scenario, we check if a form validates input and submits correctly.
 
 ```typescript
@@ -156,6 +184,10 @@ describe('Form Submission', () => {
   });
 });
 ```
+
+
+### E2E Testing Scenarios:
+E2E tests are typically used to validate the entire flow of an application, including frontend, backend, and external systems.
 
 ## Where to Place Cypress Tests
 Here is the typical structure of a Cypress project:
