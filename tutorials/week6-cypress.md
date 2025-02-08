@@ -3,7 +3,7 @@ layout: page
 title: UI Testing with Cypress
 permalink: /tutorials/week6-cypress
 parent: Tutorials
-nav_order: 8
+nav_order: 9
 ---
 # UI Testing with Cypress
 
