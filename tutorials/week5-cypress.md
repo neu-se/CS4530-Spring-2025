@@ -16,7 +16,11 @@ Before we dive into the details, you can download and set up a demo project that
 ### 1. Download the Cypress Demo Project
 Download the Cypress demo project from the link below.
 
+<<<<<<< HEAD
 [Cypress Demo](./assets/week5-cypress/cypress-demo.zip %})
+=======
+[Cypress Demo](./assets/week5-cypress/cypress-demo.zip)
+>>>>>>> fa2ddcadb254e344efad2e4d1f83ccdd31d5f3d2
 ### 2. Install Dependencies
 
 After downloading and extracting the ZIP file, navigate to the project directory and install the necessary dependencies using npm:
