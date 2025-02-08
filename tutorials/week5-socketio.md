@@ -333,4 +333,3 @@ This example sets up a basic chat app where users can send and receive messages 
 - [Socket.IO Introduction (Documentation)](https://socket.io/docs/v4/tutorial/introduction)
 - [Socket.IO Chat App Tutorial (Documentation)](https://socket.io/get-started/chat)
 - [Learn Socket.io In 30 Minutes - Web Dev Simplified](https://www.youtube.com/watch?v=ZKEqqIO7n-k)
-- [Demo Code](./assets/week5-socketio/cypress-demo.zip)
