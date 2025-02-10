@@ -10,6 +10,11 @@ submission_notes: Submit through Github Classroom (Commit your work in main bran
 
 Welcome back to the Stack Overflow team! In this second deliverable, you will be implementing new and exciting features to enhance the frontend interface and bring the web application to life. This assignment builds on the foundation you laid in the first project and will deepen your skills in frontend development with TypeScript and React.
 
+## Change Log
+
+- 2/6/2025: Added note about incorrect signature for `createGame` in `client/src/services/gamesService.ts`. The return type in line 12 should be `Promise<string>`.
+- 2/5/2025: With reference to [Piazza post 337](https://piazza.com/class/m3n5k1hgp6i3yf/post/337), update line 6 of `server/package.json` to be `"mongoose": "8.9.2",` (remove the `^`) to fix a source of memory leaks.
+
 ## Objectives of this assignment
 
 The objectives of this assignment are to:
@@ -146,6 +151,9 @@ The backend is implemented for you, with the main focus on working with React an
 1. **Complete the `useAllGamesPage` custom hook**
 
    In `client/src/hooks/useAllGamesPage.ts`, follow the inline comments to complete the logic. We'll make use of this within the `AllGamesPage` component later.
+
+   {: .note }
+   The signature for `createGame` is incorrect. Instead of a return type of `Promise<GameInstance>`, the correct return type is `Promise<string>`, where the string represents the `GameInstanceID` returned from the controller. For more details on the API response, please refer to the `/create` endpoint in `server/controllers/game.controller.ts`.
 
 2. **Complete the `GameCard` component**
 
