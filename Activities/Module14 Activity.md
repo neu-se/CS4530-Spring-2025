@@ -103,7 +103,7 @@ Note: The .env file is not required for the Render.com setup. The above instruct
 2. Click on "Create new project", and create a new project with a name such as "cs4530-s25-XYY" (where XYY is your group number).
 3. From the top menu, click on the "+ New" button and click on "Web Service".
    1. For the Source Code, choose your project repository. In case you do not see your project repository, go to your GitHub account and authorize access to your project repository.
-   2. For the Name, you can EITHER choose an unique name OR use a name such as "cs4530-s24-XYY-API" or "cs4530-s24-XYY-backend"(where XYY is your group number). The "API" or "backend" in that name is important, because it will let you easily distinguish the "server" (what Render calls a "web service") from the "client" (what Render calls a "static site", which is the URL where you will find the user-facing application).
+   2. For the Name, you can EITHER choose an unique name OR use a name such as "cs4530-s25-XYY-API" or "cs4530-s25-XYY-backend"(where XYY is your group number). The "API" or "backend" in that name is important, because it will let you easily distinguish the "server" (what Render calls a "web service") from the "client" (what Render calls a "static site", which is the URL where you will find the user-facing application).
    3. For the Project, select the project created earlier. For the environment, select Production or any default value.
    4. For Language, select "Node".
    5. For Branch, select "main".
@@ -132,7 +132,7 @@ In case your server is is not responding to requests after a long period of inac
 1. Open the [Render Dashboard](https://dashboard.render.com/).
 2. From the top menu, click on the "+ New" button and click on "Static Site".
 3. For the Git Provider, choose your project repository. In case you do not see your project repository, go to your GitHub account and authorize access to your project repository.
-4. For the Name, you can either choose an unique name OR use a name such as "cs4530-s24-XYY" (where XYY is your group number).  
+4. For the Name, you can either choose an unique name OR use a name such as "cs4530-s25-XYY" (where XYY is your group number).  
 5. For the Project, select the project created earlier. For the environment, select Production or any default value.
 6. For Branch, select "main".
 7. For Root Directory, type in "client".
