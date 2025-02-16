@@ -21,9 +21,9 @@ There are three pre-requisites for this activity.
 
 Your team's deployment must take place within a private GitHub repository in our GitHub Classroom. To create your repository, each member of your team should follow these instructions:
 
-1. Sign in to GitHub.com, and then use our invitation to create a repository with the FakeStackOverflow codebase. Check to see if one of your groupmates has created a group already - if so, select it to join it. Otherwise, create a repo using the following format fall24-team-project-group-xyy where you should enter your group number (e.g. "Group-XYY") as the name where X is your section number and YY is your group number.
+1. Sign in to GitHub.com, and then use our invitation to create a repository with the FakeStackOverflow codebase. Check to see if one of your groupmates has created a group already - if so, select it to join it. Otherwise, create a repo using the following format spring25-team-project-group-xyy where you should enter your group number (e.g. "Group-XYY") as the name where X is your section number and YY is your group number.
 
-2. Check your email for the invitation to join the repo. After that, refresh the page, and it will show a link to your new repository, for example: https://github.com/neu-cs4530/fall24-team-project-group-xyy. Click the link to navigate to your new repository. This is the repository you will use for the project.
+2. Check your email for the invitation to join the repo. After that, refresh the page, and it will show a link to your new repository, for example: https://github.com/neu-cs4530/spring25-team-project-group-xyy. Click the link to navigate to your new repository. This is the repository you will use for the project.
 
 This repository will be private, and visible only to your team and the course staff. After the semester ends, you are welcome to make it public - you have complete administrative control of the repository.
 
@@ -55,8 +55,8 @@ You will first create the MongoDB database, and then setup the continuous deploy
 2. Click on the "Visit MongoDB Atlas" button.
 3. Click on the "Create" button on the center of the screen. (If you don't see a "Create" button, make sure you are in the "Overview" section on the left navigation and on the "Data Services" tab)
 4. In the configuration options:
-   1. Choose the "M0" free tier.
-   2. For the Name, provide a name such as "db-cs4530-f24-XYY" (where XYY is your group number).
+   1. Choose the "Free" tier.
+   2. For the Name, provide a name such as "db-cs4530-spring25-XYY" (where XYY is your group number).
    3. Keep the Provider and Region the default values.
 5. Click on "Create Deployment".
 6. You will be prompted about connecting to your database. 
@@ -65,11 +65,10 @@ You will first create the MongoDB database, and then setup the continuous deploy
    3. Click the "Close" button.
 7. Wait for your database cluster to complete creation. Once complete, click on the "Network Access" option in the left navigation.
 8. Your current public IP address will be automatically present. Click the "EDIT" button, and then click "ALLOW ACCESS FROM ANYWHERE". Click the "Confirm" button.
-9. Click on the "Database" option in the left navigation. Then, click on the "Connect" button.
-   1.  Click on "Choose a connection method".
-   2.  Click on "Compass".
-   3.  If you don't have Compass installed, follow the instructions to install MongoDB Compass and then connect.
-   4.  Otherwise, switch to the "I have MongoDB Compass installed" tab and connect.
+9. Click on the "Clusters" option in the left navigation. Then, click on the "Connect" button.
+   1.  Click on "Compass".
+   2.  If you don't have Compass installed, follow the instructions to install MongoDB Compass and then connect.
+   3.  Otherwise, switch to the "I have MongoDB Compass installed" tab and connect.
 10. Open up MongoDB Compass and see what connections are displayed.  You should see a connection to something like `<your repo name>.cvjdm.mongodb.net:27017` That connection should include databases such as such as "admin", "config", and "local".
 11. In Compass nav bar (on the left), select the connection you just created.  Mouse to the "..." and select "Copy Connection String".  Paste this connection string in some convenient place; you will need it later.
 12. Go to your project repository's server folder and run the `populate_db.ts` script.
@@ -101,10 +100,10 @@ Note: The .env file is not required for the Render.com setup. The above instruct
 ### Setup your Server
 
 1. Open the [Render Dashboard](https://dashboard.render.com/).
-2. Click on "Create new project", and create a new project with a name such as "cs4530-f24-XYY" (where XYY is your group number).
+2. Click on "Create new project", and create a new project with a name such as "cs4530-s25-XYY" (where XYY is your group number).
 3. From the top menu, click on the "+ New" button and click on "Web Service".
    1. For the Source Code, choose your project repository. In case you do not see your project repository, go to your GitHub account and authorize access to your project repository.
-   2. For the Name, you can EITHER choose an unique name OR use a name such as "cs4530-f24-XYY-API" or "cs4530-f24-XYY-backend"(where XYY is your group number). The "API" or "backend" in that name is important, because it will let you easily distinguish the "server" (what Render calls a "web service") from the "client" (what Render calls a "static site", which is the URL where you will find the user-facing application).
+   2. For the Name, you can EITHER choose an unique name OR use a name such as "cs4530-s25-XYY-API" or "cs4530-s25-XYY-backend"(where XYY is your group number). The "API" or "backend" in that name is important, because it will let you easily distinguish the "server" (what Render calls a "web service") from the "client" (what Render calls a "static site", which is the URL where you will find the user-facing application).
    3. For the Project, select the project created earlier. For the environment, select Production or any default value.
    4. For Language, select "Node".
    5. For Branch, select "main".
@@ -133,7 +132,7 @@ In case your server is is not responding to requests after a long period of inac
 1. Open the [Render Dashboard](https://dashboard.render.com/).
 2. From the top menu, click on the "+ New" button and click on "Static Site".
 3. For the Git Provider, choose your project repository. In case you do not see your project repository, go to your GitHub account and authorize access to your project repository.
-4. For the Name, you can either choose an unique name OR use a name such as "cs4530-f24-XYY" (where XYY is your group number).  
+4. For the Name, you can either choose an unique name OR use a name such as "cs4530-s25-XYY" (where XYY is your group number).  
 5. For the Project, select the project created earlier. For the environment, select Production or any default value.
 6. For Branch, select "main".
 7. For Root Directory, type in "client".
@@ -145,4 +144,7 @@ In case your server is is not responding to requests after a long period of inac
 13. Open the [Render Dashboard](https://dashboard.render.com/) again. Choose the project you have created, and go back to service called "Web Service". 
 14. Click on the "Environment" tab.
 15. Add a new environment variable called `CLIENT_URL`. For the value, add the client URL (make sure you are adding this env. variable in the server's settings, not the client's). You should now have two environment variables for your server: `MONGDB_URI` and `CLIENT_URL`.
-16. Visit the client URL in your browser to run the application.
+16. Click on the "Redirects/Rewrites" tab.
+17. Add a "Rewrite" action with Source "/*" and Destination "/index.html" this will point all traffic to our React page so that React Router can handle the routing instead of Render.com
+18. Click "Save Changes"
+19. Visit the client URL in your browser to run the application.
