@@ -29,7 +29,7 @@ Your user stories should cover the key behavior or qualities that your features 
 
 Each user story and condition of satisfaction must have a priority (Essential, Desirable, or Extension). The set of Essential items will constitute the "Minimum Viable Product". 
 
-Some of the suggested projects above are primarily about some non-functional quality of the code base and have little or no user impact. For these, you may want to write stories of the form "As a project owner, I want ...".  You still need to offer a reason why a project owner might want the proposed goal to be accomplished.
+Some of your proposed projects are primarily about some non-functional quality of the code base and have little or no user impact. For these, you may want to write stories of the form "As a project owner, I want ...".  You still need to offer a reason why a project owner might want the proposed goal to be accomplished.
 
 Do not provide more than three user stories. Your problem statement and description of user stories and conditions of satisfaction should be between 2-4 pages.
 
