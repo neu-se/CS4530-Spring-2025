@@ -109,9 +109,9 @@ Note: The .env file is not required for the Render.com setup. The above instruct
    4. For Language, select "Node".
    5. For Branch, select "main".
    6. For Region, keep the default value.
-   7. For Root Directory, type in "server".
-   8. For Build Command, type in "cd ..; npm install; npm run build --workspace=server".
-   9. For Start Command, type in "npm run start:prod".
+   7. For Root Directory, type in `server`.
+   8. For Build Command, type in `cd ..; npm install; npm run build --workspace=server`.
+   9. For Start Command, type in `npm run start:prod`.
    10. For Instance Type, choose the "Free" option.
    11. In the Environment Variables section, add a variable called `MONGODB_URI`. For the value, add the connection string of the MongoDB database created earlier. Make sure that you remove the trailing slash, if any.
    12. If you need to change any of these, you can do so from the tab called "Settings" (or "Environment")
@@ -134,9 +134,9 @@ In case your server is is not responding to requests after a long period of inac
 4. For the Name, you can either choose an unique name OR use a name such as "cs4530-s25-XYY" (where XYY is your group number).
 5. For the Project, select the project created earlier. For the environment, select Production or any default value.
 6. For Branch, select "main".
-7. For Root Directory, type in "client".
-8. For Build Command, type in "cd ..; npm install; npm run build --workspace=shared; npm run build --workspace=client".
-9. For Publish directory, type in "build".
+7. For Root Directory, type in `client`.
+8. For Build Command, type in `cd ..; npm install; npm run build --workspace=shared; npm run build --workspace=client`.
+9. For Publish directory, type in `build`.
 10. In the Environment Variables section, add a variable called `REACT_APP_SERVER_URL`. For the value, add the server URL from **Setup your Server** Step 5.
 11. Click "Deploy Static Site".
 12. Once the site is deployed, copy the client URL. As before, you can find this in purple near the top of the "Logs" page.
