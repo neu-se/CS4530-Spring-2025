@@ -20,7 +20,7 @@ All implementation will take place in the TypeScript programming language, using
 | 02/03/2025| Project Kick-off Meeting | Schedule a meeting with your Mentor TA during this week |
 | 02/12/2025 | [Preliminary Project Plan]({{ site.baseurl }}{% link Assignments/project-plan.md %}) | Propose a new feature for StackOverflow project that can be planned and implemented within 7 weeks |
 | 02/26/2025 | [Revised Project Plan]({{ site.baseurl }}{% link Assignments/revised-project-plan.md %}) | Refine the scope of your feature based on staff feedback, define detailed requirements and project acceptance criteria. |
-| 04/09/2025 | Project Delivery - Implementation and Documentation | Deliver/Deploy your new features, including design documentation and tests |
+| 04/09/2025 | [Project Delivery - Implementation and Documentation]({{ site.baseurl }}{% link Assignments/project-deliverable.md %}) | Deliver/Deploy your new features, including design documentation and tests |
 
 ### Summary of Project Grading
 Your overall project grade (which will account for 40% of your final grade in this course) will be the weighted average of each of the deliverables.
