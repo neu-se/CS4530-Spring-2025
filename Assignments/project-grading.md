@@ -21,8 +21,8 @@ From [Project Overview]({{ site.baseurl }}{% link Assignments/project-overview.m
 * Planning (20%)
   * This includes the Preliminary Project Plan and the Revised Project Plan.
 * Process (20%)
-  * This includes: use of a structured development process, including code reviews,  timely completion of sprint progress reports and individual/team surveys, and weekly meetings with TA Mentor.
-  * This also includes appropriate division of labor within the project.  For full credit, each member of the team must have at least 4 commits in the final delivered code.
+  * This includes: use of a structured development process, including pull requests, code reviews, timely completion of sprint progress reports and individual/team surveys, and weekly meetings with TA Mentor.
+  * This also includes appropriate division of labor within the project.  For full credit, each member of the team must have at least 2 commits during the each sprint (even when using pair programming).
 * Product (40%)
   * 20% Successful delivery of your Minimum Viable Product as defined in your project plan
   * 10% Additional desirable features
@@ -53,21 +53,21 @@ We will grade each of these using the following rubric:
 * Implemented features do not include any eslint-disable or ts-ignore flag
 
 ### Testing (10%)
-The project must include evidence of testing (both for front-end and back-end). Ideally, all new features will be accompanied by fully automated tests, but in some circumstances, this may not be feasible. If automated tests are not possible, include a discussion of your manual testing strategy. There is no explicit requirement to make use of any specific testing technology (e.g. mocks, spies, etc.) or library (e.g., cypress).
+The project must include evidence of testing (both for front-end and back-end). Ideally, all new features will be accompanied by fully automated tests, but in some circumstances, this may not be feasible. If automated tests are not possible, include a discussion of your manual testing strategy. The evidence of testing can be submitted as part of your report. There is no explicit requirement to make use of any specific testing technology (e.g. mocks, spies, etc.) or library (e.g., cypress).
 
 #### Satisfactory:
 * Any new or modified backend features include tests that validate that the feature works as intended. These tests cover the changed code, and also contain well-written assertions that thoroughly check the expected behaviors.
-* Any new or modified frontend features should be thoroughly tested to validate that the feature works as intended. These tests may be manual.
+* Any new or modified frontend features should be thoroughly tested to validate that the feature works as intended. These tests may be manual. Evidence of your testing is provided.
 * Tests contains no ESLint warnings or errors; do not include any eslint-disable or ts-ignore flags
 
 #### Meets minimum requirements:
 * Any new or modified backend features include at least one test, which may or may not be an effective test.
-* Any new or modified frontend features should be minimally tested.
+* Any new or modified frontend features should be minimally tested. Limited or no evidence of testing is provided
 * Tests may contain ESlint warnings (but no errors); does not include any eslint-disable or ts-ignore flags
 
 ### Process (20%)
-The Process grade includes: use of a structured development process, including code reviews, timely completion of sprint progress reports/retrospectives, individual/team surveys, peer evaluations and weekly meetings with TA Mentor (for Week 6, 8-13). It also includes appropriate division of labor within the project. For full credit, each member of the team must have at least 4 commits in the final delivered code. 
-* Ongoing development progress including code reviews, github commits, issue tracker activity, etc. count 10% of the grade
+The Process grade includes: use of a structured development process, including pull requests, code reviews, timely completion of sprint progress reports/retrospectives, individual/team surveys, peer evaluations and weekly meetings with TA Mentor (for Week 6, 8, 10-14). It also includes appropriate division of labor within the project. For full credit, each member of the team must have at least 2 commits during each sprint in the final delivered code. 
+* Ongoing development progress including pull requests, code reviews, github commits, issue tracker activity, etc. count 10% of the grade
 * Peer evaluations, TA meeting, submission of surveys/reports counts 10% of the project grade. 
 These items will be evaluated using the rubrics below. 
 
@@ -75,18 +75,18 @@ These items will be evaluated using the rubrics below.
 * There is a clear development history visible from the git repository: features were delivered incrementally, and not in a single (or several) commits at the end of the project
 * There is evidence of code review - for example, pull requests that have comments on them. Teams are expected to merge their development branches to main only after code review. 
 * There is a correspondence between commit messages and the technical tasks that they are associated with; there are few (if any) commits with meaningless commits messages like `.` or `Add files via upload`.
-* Each team member has made at least 4 commits over the lifespan of the project
-* The team meets regularly with the TA mentor.  All or most members attend all meetings. Members who are absent from a TA Meeting send an excuse in advance.
+* Each team member has made at least 2 commits per sprint over the lifespan of the project
+* The team meets regularly with the TA mentor. All or most members attend all meetings. Members who are absent from a TA Meeting send an excuse in advance.
 * Progress reports and other weekly reports and surveys are submitted in a timely fashion, not filled in later.
 * TA Meetings include demos or other evidence of progress.
 
 #### Meets minimum requirements:
 * There is a clear development history visible from the git repository: features were delivered incrementally, and not in a single (or several) commits at the end of the project
-* Each team member has made at least 2 commits over the lifespan of the project
+* Each team member has made at least 4 commits over the lifespan of the project
 * Attendance at TA meetings may be irregular, but enough to give the TA a sense of the the team's progress.
   
 #### Individual grading for Process component
-Team members with unexcused absences from TA Meetings, or with fewer than 4 commits during the lifespan of the project, may receive a lowered grade for the Process component. 
+Team members with unexcused absences from TA Meetings, or with fewer than 2 commits per sprint during the lifespan of the project, may receive a lowered grade for the Process component. 
 
 ### Final Report (10%)
 The final report should consist of three sections:
@@ -121,11 +121,13 @@ The allocation of the 10% credit will be as follows: Overview and manual will be
 * When appropriate, it uses diagrams and/or figures to illustrate a design (there is no requirement to use a specific tool or format for this - students often use lucidchart, draw.io, [mermaid](https://mermaid.live) or even hand-drawn diagrams).
 * It provides a well-reasoned rationale for why this is the "right" design. 
 * It provides a table showing the status of all proposed user stories and conditions of satisfaction (proposed vs completed). The status could be fully implemented, partially implementted (feel free to add percentages), not completed.
+* It provides evidence of front end testing (if appropriate). 
 * The document is at most 2 pages (fewer pages are absolutely acceptable, consider this a rough limit) excluding the table. 
 
 #### Meets minimum requirements:
 * Technical Overview includes a description of all major changes to the code compared to our existing FakeStackOverFlow codebase.
 * It provides a table showing the status of all proposed user stories and conditions of satisfaction (proposed vs completed). The status could be fully implemented, partially implementted (feel free to add percentages), not completed.
+* It provides limited or no evidence of front end testing. 
 * The document is at most 2 pages (fewer pages are absolutely acceptable, consider this a rough limit) excluding the table.
 
 ### * Process Overview
