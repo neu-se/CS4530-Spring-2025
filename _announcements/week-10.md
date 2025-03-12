@@ -1,7 +1,7 @@
 ---
 title: Information about Project Final Deliverables, and Posters/Demos
 week: 10
-date: 2025-02-12
+date: 2025-03-12
 ---
 As you ramp up your work on the final project, please don't forget that {going forward} process-related submissions (i.e., peer evauluations, TA meetings, sprint reports, etc.) are due almost every week.
 
