@@ -65,6 +65,9 @@ guest-pm:
 11b:
   name: Open Source
   page: 
+11c:
+  name: Dependency Management
+  page: /modules/16a-dependencies
 12a:
   name: Work on Project
 12b:
@@ -86,9 +89,6 @@ posters:
   name: Poster Presentations
 advanced:
   name: Advanced Topics in SE
-dependency:
-  name: Dependency Management
-  page: 
 ip1:
   name: Individual Project 1
   type: deadline
