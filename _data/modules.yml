@@ -68,6 +68,9 @@ guest-pm:
 11c:
   name: Dependency Management
   page: 
+11c:
+  name: Dependency Management
+  page: /modules/16a-dependencies
 12a:
   name: Work on Project
 12b:
