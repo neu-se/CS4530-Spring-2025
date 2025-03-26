@@ -67,15 +67,12 @@ guest-pm:
   page: /modules/16-open-source
 11c:
   name: Dependency Management
-  page: 
-11c:
-  name: Dependency Management
   page: /modules/16a-dependencies
 12a:
   name: Work on Project
 12b:
   name: Ethics and Equity in SE
-  page: 
+  page: /modules/17-ethics
 12c:
   name: Work on Project / Mini-Demo
 13a:
