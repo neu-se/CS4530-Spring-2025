@@ -143,3 +143,5 @@ extendedOfficeHours:
   name: Work Session / Extended Office Hours
 readingDay:
   name: Reading Day / No class
+optionalWOP:
+  name: Work on Project (Optional)
