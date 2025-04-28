@@ -9,7 +9,21 @@ nav_order: 7
 # Project Showcase
 
 Many students opted-in to publicly share their project poster. This page contains each student group's poster, which you can view by clicking on the thumbnail. The full size poster contains **clickable** links to the project's GitHub repository and the project's demo.
+* [Section 1](#section-1) 
+* [Section 2](#section-2) 
+* [Section 3](#section-3)
+* [Section 4](#section-4)
+* [Section 5](#section-5)
+* [Section 6](#section-6)
 
+The following group projects were chosen as best projects by the class (ranked 1,2,3): 
+* Section 1: 106, 107, 105
+* Section 2: 208, 210, 207
+* Section 3: 301, 307, 302
+* Section 5: 511, 501, 507
+* Section 6: 607, 602, 603
+
+# Section 1
 ## Group 101
 [![Group 101 Poster]({{ site.baseurl }}{% link /assets/images/project_showcase/101.png %})]({{ site.baseurl}}{% link /assets/images/project_showcase/101.pdf %})
 ## Group 102
@@ -34,6 +48,8 @@ Many students opted-in to publicly share their project poster. This page contain
 [![Group 111 Poster]({{ site.baseurl }}{% link /assets/images/project_showcase/111.png %})]({{ site.baseurl}}{% link /assets/images/project_showcase/111.pdf %})
 ## Group 112
 [![Group 112 Poster]({{ site.baseurl }}{% link /assets/images/project_showcase/112.png %})]({{ site.baseurl}}{% link /assets/images/project_showcase/112.pdf %})
+
+# Section 2
 ## Group 201
 [![Group 201 Poster]({{ site.baseurl }}{% link /assets/images/project_showcase/201.png %})]({{ site.baseurl}}{% link /assets/images/project_showcase/201.pdf %})
 ## Group 202
@@ -58,6 +74,8 @@ Many students opted-in to publicly share their project poster. This page contain
 [![Group 211 Poster]({{ site.baseurl }}{% link /assets/images/project_showcase/211.png %})]({{ site.baseurl}}{% link /assets/images/project_showcase/211.pdf %})
 ## Group 212
 [![Group 212 Poster]({{ site.baseurl }}{% link /assets/images/project_showcase/212.png %})]({{ site.baseurl}}{% link /assets/images/project_showcase/212.pdf %})
+
+# Section 3
 ## Group 301
 [![Group 301 Poster]({{ site.baseurl }}{% link /assets/images/project_showcase/301.png %})]({{ site.baseurl}}{% link /assets/images/project_showcase/301.pdf %})
 ## Group 302
@@ -78,6 +96,8 @@ Many students opted-in to publicly share their project poster. This page contain
 [![Group 310 Poster]({{ site.baseurl }}{% link /assets/images/project_showcase/310.png %})]({{ site.baseurl}}{% link /assets/images/project_showcase/310.pdf %})
 ## Group 311
 [![Group 311 Poster]({{ site.baseurl }}{% link /assets/images/project_showcase/311.png %})]({{ site.baseurl}}{% link /assets/images/project_showcase/311.pdf %})
+
+# Section 4
 ## Group 401
 [![Group 401 Poster]({{ site.baseurl }}{% link /assets/images/project_showcase/401.png %})]({{ site.baseurl}}{% link /assets/images/project_showcase/401.pdf %})
 ## Group 402
@@ -104,6 +124,8 @@ Many students opted-in to publicly share their project poster. This page contain
 [![Group 418 Poster]({{ site.baseurl }}{% link /assets/images/project_showcase/418.png %})]({{ site.baseurl}}{% link /assets/images/project_showcase/418.pdf %})
 ## Group 419
 [![Group 419 Poster]({{ site.baseurl }}{% link /assets/images/project_showcase/419.png %})]({{ site.baseurl}}{% link /assets/images/project_showcase/419.pdf %})
+
+# Section 5
 ## Group 501
 [![Group 501 Poster]({{ site.baseurl }}{% link /assets/images/project_showcase/501.png %})]({{ site.baseurl}}{% link /assets/images/project_showcase/501.pdf %})
 ## Group 502
@@ -124,6 +146,8 @@ Many students opted-in to publicly share their project poster. This page contain
 [![Group 511 Poster]({{ site.baseurl }}{% link /assets/images/project_showcase/511.png %})]({{ site.baseurl}}{% link /assets/images/project_showcase/511.pdf %})
 ## Group 512
 [![Group 512 Poster]({{ site.baseurl }}{% link /assets/images/project_showcase/512.png %})]({{ site.baseurl}}{% link /assets/images/project_showcase/512.pdf %})
+
+# Section 6
 ## Group 601
 [![Group 601 Poster]({{ site.baseurl }}{% link /assets/images/project_showcase/601.png %})]({{ site.baseurl}}{% link /assets/images/project_showcase/601.pdf %})
 ## Group 602
